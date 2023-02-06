@@ -1,6 +1,8 @@
 # `rust-stm32l010f4px-template`
 
-> A template for building applications for ARM Cortex-M0 stm32l010f4 microcontroller
+> A template for building applications for ARM Cortex-M0 stm32l010f4 microcontrollers
+
+Based off of [cortex-m-quickstart](https://github.com/rust-embedded/cortex-m-quickstart) and [stm32l0xx-hal](https://github.com/stm32-rs/stm32l0xx-hal)
 
 ## Dependencies
 
@@ -48,3 +50,14 @@ cargo build --release
 ``` console
 cargo flash --release --chip STM32L010F4Px
 ```
+
+# License
+
+This template is licensed under either of
+
+- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or
+  http://www.apache.org/licenses/LICENSE-2.0)
+
+- MIT license ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
+
+at your option.
