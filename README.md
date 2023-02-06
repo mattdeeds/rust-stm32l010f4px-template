@@ -8,9 +8,11 @@ Based off of [cortex-m-quickstart](https://github.com/rust-embedded/cortex-m-qui
 
 To build embedded programs using this template you'll need:
 
-- [Rust](https://www.rust-lang.org/tools/install)
+- [rustup](https://rustup.rs/)
 
 - The arm-none-eabi compiler toolchain
+  - On Ubuntu or Debian: apt-get install gcc-arm-none-eabi binutils-arm-none-eabi
+  - On MacOS, grab a pre-built toolchain from the homebrew-arm repo
 
 - The `cargo generate` subcommand. [Installation
   instructions](https://github.com/ashleygwilliams/cargo-generate#installation).
